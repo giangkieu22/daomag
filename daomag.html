@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>daomag</title>
+</head>
+<body>
+<script>
+    let x = [2, 5, 1, 16, 7, 4];
+    let a = 0;
+    let b = x.length - 1;
+    while (a < b) {
+        let y = x[a];
+        x[a] = x[b];
+        x[b] = y;
+        a++;
+        b--;
+    }
+    alert(x);
+</script>
+</body>
+</html>
